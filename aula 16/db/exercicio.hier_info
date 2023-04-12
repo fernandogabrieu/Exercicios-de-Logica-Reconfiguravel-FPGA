@@ -1,0 +1,82 @@
+|exercicio
+LEDR[0] <= sequencial:inst2.ledr[0]
+LEDR[1] <= sequencial:inst2.ledr[1]
+LEDR[2] <= sequencial:inst2.ledr[2]
+LEDR[3] <= sequencial:inst2.ledr[3]
+LEDR[4] <= sequencial:inst2.ledr[4]
+LEDR[5] <= sequencial:inst2.ledr[5]
+LEDR[6] <= sequencial:inst2.ledr[6]
+LEDR[7] <= sequencial:inst2.ledr[7]
+CLOCK_50 => sequencial:inst2.CLOCK_50
+CLOCK_50 => pwm1:inst.clk
+
+
+|exercicio|sequencial:inst2
+CLOCK_50 => ledr_delay[0].CLK
+CLOCK_50 => ledr_delay[1].CLK
+CLOCK_50 => ledr_delay[2].CLK
+CLOCK_50 => ledr_delay[3].CLK
+CLOCK_50 => ledr_delay[4].CLK
+CLOCK_50 => ledr_delay[5].CLK
+CLOCK_50 => ledr_delay[6].CLK
+CLOCK_50 => ledr_delay[7].CLK
+CLOCK_50 => ledr_delay[8].CLK
+CLOCK_50 => ledr_delay[9].CLK
+CLOCK_50 => ledr_delay[10].CLK
+CLOCK_50 => ledr_delay[11].CLK
+CLOCK_50 => ledr_delay[12].CLK
+CLOCK_50 => ledr_delay[13].CLK
+CLOCK_50 => ledr_delay[14].CLK
+CLOCK_50 => ledr_delay[15].CLK
+CLOCK_50 => ledr_delay[16].CLK
+CLOCK_50 => ledr_delay[17].CLK
+CLOCK_50 => ledr_delay[18].CLK
+CLOCK_50 => ledr_delay[19].CLK
+CLOCK_50 => ledr_delay[20].CLK
+CLOCK_50 => ledr_delay[21].CLK
+CLOCK_50 => ledr_delay[22].CLK
+CLOCK_50 => ledr_delay[23].CLK
+CLOCK_50 => ledr_delay[24].CLK
+CLOCK_50 => ledr_delay[25].CLK
+CLOCK_50 => ledr_reg.CLK
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+Entrada => ledr.DATAB
+ledr[0] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[1] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[2] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[3] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[4] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[5] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[6] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+ledr[7] <= ledr.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio|pwm1:inst
+clk => clk_100us1.CLK
+clk => led_delay100[0].CLK
+clk => led_delay100[1].CLK
+clk => led_delay100[2].CLK
+clk => led_delay100[3].CLK
+clk => led_delay100[4].CLK
+clk => led_delay100[5].CLK
+clk => led_delay100[6].CLK
+clk => led_delay100[7].CLK
+clk => led_delay100[8].CLK
+clk => led_delay100[9].CLK
+clk => led_delay100[10].CLK
+clk => led_delay100[11].CLK
+clk => clk_1us1.CLK
+clk => led_delay[0].CLK
+clk => led_delay[1].CLK
+clk => led_delay[2].CLK
+clk => led_delay[3].CLK
+clk => led_delay[4].CLK
+LED <= led_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+

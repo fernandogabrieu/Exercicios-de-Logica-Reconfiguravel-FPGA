@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/logica rec/aula.vhd
+source_file = 1, output_files/aula.bdf
+source_file = 1, C:/Users/aluno/Desktop/logica rec/output_files/Block2.bdf
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/aluno/Desktop/logica rec/db/aula.cbx.xml
+design_name = aula
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, aula, 1
+instance = comp, \SW[0]~input\, SW[0]~input, aula, 1
+instance = comp, \SW[1]~input\, SW[1]~input, aula, 1
+instance = comp, \LEDR~0\, LEDR~0, aula, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, aula, 1

@@ -1,0 +1,6 @@
+|aula
+SW[0] => LEDR.IN0
+SW[1] => LEDR.IN1
+LEDR[0] <= LEDR.DB_MAX_OUTPUT_PORT_TYPE
+
+

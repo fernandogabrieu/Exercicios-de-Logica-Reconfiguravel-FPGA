@@ -1,0 +1,26 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity flipflop is 
+	PORT( entrada : in std_logic;
+			saida : out std_logic_vector (4 downto 0));
+end flipflop;
+
+architecture funcao of flipflop is
+begin
+	while (i < 7) loop
+		z(i) <= '1';
+		if(i = '0') then
+			saida <= '0001';
+		elsif (i = '1') then
+			saida <= '0010';
+		elsif (i = '2') then
+			saida <= '0100';
+		elsif (i = '3') then
+			saida <= '0100';
+		else 
+			saida <= '0000';
+		end if;
+		i := i + 1;
+	end loop;
+end funcao;

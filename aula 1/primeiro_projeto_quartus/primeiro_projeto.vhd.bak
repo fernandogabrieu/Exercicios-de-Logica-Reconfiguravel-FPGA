@@ -1,0 +1,13 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY primeiro_projeto IS
+	PORT (IN1 : IN std_logic;
+			IN2 : IN std_logic;
+	SAIDA : OUT std_logic;
+END primeiro_projeto;
+
+ARCHITECTURE logica OF primeiro_projeto IS
+BEGIN
+	SAIDA <= IN1 and IN2;
+END logica;

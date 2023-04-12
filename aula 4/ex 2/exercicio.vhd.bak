@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity exercicio is
+	port( );
+end exercicio;
+
+architecture logica of exercicio is
+begin
+
+end logica;

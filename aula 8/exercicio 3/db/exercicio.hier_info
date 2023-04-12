@@ -1,0 +1,19 @@
+|exercicio
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[0] => Mux2.IN5
+sel[0] => Mux3.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+sel[1] => Mux2.IN4
+sel[1] => Mux3.IN4
+en => LED[0]$latch.LATCH_ENABLE
+en => LED[1]$latch.LATCH_ENABLE
+en => LED[2]$latch.LATCH_ENABLE
+en => LED[3]$latch.LATCH_ENABLE
+LED[0] <= LED[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= LED[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= LED[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= LED[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

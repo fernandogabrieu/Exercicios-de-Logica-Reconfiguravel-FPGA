@@ -1,0 +1,90 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity rs232 is 
+
+port (dados: in std_logic_vector (7 downto 0); -- dados provenientes do decoder
+	  clk: in std_logic;					   -- clock de 9600Khz para protocolo serial
+	  tx: out std_logic;					   -- dados seriais enviados para a saída
+	  enable: in std_logic);			   	   -- ligar/desligar envio
+     
+end rs232;
+
+architecture basica of rs232 is
+signal count: integer range 0 to 13;
+signal dados_velho: std_logic_vector (7 downto 0);
+signal ena: integer range 0 to 1;
+
+begin
+ 
+process (clk, enable)
+begin
+	if (enable='1') then
+		
+		if (clk='1' and clk'event) then
+			
+			if (ena=0) then					-- envia a primeira palavra lida qdo a placa é ligada
+	
+				case count is
+				when 0 => tx<= '0';
+				when 1 => tx<= '0';
+				when 2 => tx<= '1';
+				when 3 => tx<= dados(0);
+				when 4 => tx<= dados(1);
+				when 5 => tx<= dados(2);
+				when 6 => tx<= dados(3);
+				when 7 => tx<= dados(4);
+				when 8 => tx<= dados(5);
+				when 9 => tx<= dados(6);
+				when 10 => tx<= dados(7);
+				when 11 => tx<= '0';
+				when 12 => tx<= '0';
+				when 13 => tx<= '0';
+				end case;	
+		
+				count <= count+1;
+				
+				if (count>13) then
+					count <= 0;
+					ena <= ena+1;
+					dados_velho <= dados;
+				end if;
+				
+			else
+					if (dados=dados_velho) then
+							tx<='0';
+					
+						else
+							case count is				-- envia nova palavra qdo ela for diferente da anterior
+							when 0 => tx<= '0';
+							when 1 => tx<= '0';
+							when 2 => tx<= '1';
+							when 3 => tx<= dados(0);
+							when 4 => tx<= dados(1);
+							when 5 => tx<= dados(2);
+							when 6 => tx<= dados(3);
+							when 7 => tx<= dados(4);
+							when 8 => tx<= dados(5);
+							when 9 => tx<= dados(6);
+							when 10 => tx<= dados(7);
+							when 11 => tx<= '0';
+							when 12 => tx<= '0';
+							when 13 => tx<= '0';
+							end case;	
+					
+							count <= count+1;	
+							if (count>13) then
+								count <= 0;
+								dados_velho <= dados;
+							end if;
+					end if;
+								
+			end if;
+			
+		end if;
+	
+	end if;
+	
+end process;
+
+end basica;

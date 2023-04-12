@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -5.349
+TNS   : -129.020
+
+Type  : Slow 1100mV 85C Model Setup 'sequencial:inst2|ledr_reg'
+Slack : -3.206
+TNS   : -119.273
+
+Type  : Slow 1100mV 85C Model Setup 'pwm1:inst|clk_100us1'
+Slack : -3.028
+TNS   : -68.677
+
+Type  : Slow 1100mV 85C Model Setup 'pwm1:inst|clk_1us1'
+Slack : -2.667
+TNS   : -16.316
+
+Type  : Slow 1100mV 85C Model Hold 'sequencial:inst2|ledr_reg'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pwm1:inst|clk_1us1'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'pwm1:inst|clk_100us1'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.425
+TNS   : -29.862
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sequencial:inst2|ledr_reg'
+Slack : -0.394
+TNS   : -20.878
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pwm1:inst|clk_100us1'
+Slack : -0.394
+TNS   : -15.457
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pwm1:inst|clk_1us1'
+Slack : -0.394
+TNS   : -5.118
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -5.519
+TNS   : -128.541
+
+Type  : Slow 1100mV 0C Model Setup 'sequencial:inst2|ledr_reg'
+Slack : -3.173
+TNS   : -117.800
+
+Type  : Slow 1100mV 0C Model Setup 'pwm1:inst|clk_100us1'
+Slack : -2.994
+TNS   : -68.029
+
+Type  : Slow 1100mV 0C Model Setup 'pwm1:inst|clk_1us1'
+Slack : -2.711
+TNS   : -16.327
+
+Type  : Slow 1100mV 0C Model Hold 'sequencial:inst2|ledr_reg'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pwm1:inst|clk_1us1'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'pwm1:inst|clk_100us1'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.435
+TNS   : -31.983
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sequencial:inst2|ledr_reg'
+Slack : -0.394
+TNS   : -20.610
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pwm1:inst|clk_100us1'
+Slack : -0.394
+TNS   : -14.847
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pwm1:inst|clk_1us1'
+Slack : -0.394
+TNS   : -5.128
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.399
+TNS   : -55.299
+
+Type  : Fast 1100mV 85C Model Setup 'sequencial:inst2|ledr_reg'
+Slack : -1.565
+TNS   : -57.833
+
+Type  : Fast 1100mV 85C Model Setup 'pwm1:inst|clk_100us1'
+Slack : -1.405
+TNS   : -31.770
+
+Type  : Fast 1100mV 85C Model Setup 'pwm1:inst|clk_1us1'
+Slack : -1.193
+TNS   : -7.378
+
+Type  : Fast 1100mV 85C Model Hold 'pwm1:inst|clk_1us1'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'sequencial:inst2|ledr_reg'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'pwm1:inst|clk_100us1'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.430
+TNS   : -6.199
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pwm1:inst|clk_100us1'
+Slack : -0.059
+TNS   : -1.079
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pwm1:inst|clk_1us1'
+Slack : -0.017
+TNS   : -0.126
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sequencial:inst2|ledr_reg'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.850
+TNS   : -48.125
+
+Type  : Fast 1100mV 0C Model Setup 'sequencial:inst2|ledr_reg'
+Slack : -1.403
+TNS   : -51.664
+
+Type  : Fast 1100mV 0C Model Setup 'pwm1:inst|clk_100us1'
+Slack : -1.273
+TNS   : -28.784
+
+Type  : Fast 1100mV 0C Model Setup 'pwm1:inst|clk_1us1'
+Slack : -1.079
+TNS   : -6.461
+
+Type  : Fast 1100mV 0C Model Hold 'pwm1:inst|clk_1us1'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'sequencial:inst2|ledr_reg'
+Slack : 0.130
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'pwm1:inst|clk_100us1'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.435
+TNS   : -6.096
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pwm1:inst|clk_100us1'
+Slack : -0.001
+TNS   : -0.004
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pwm1:inst|clk_1us1'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sequencial:inst2|ledr_reg'
+Slack : 0.079
+TNS   : 0.000
+
+------------------------------------------------------------

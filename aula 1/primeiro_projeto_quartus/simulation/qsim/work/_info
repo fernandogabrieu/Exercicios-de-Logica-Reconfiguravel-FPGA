@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aluno/Desktop/primeiro_projeto_quartus/simulation/qsim
+Ehard_block
+Z1 w1660771991
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8primeiro_projeto.vho
+Z9 Fprimeiro_projeto.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1660771992
+!i10b 1
+Z12 !s108 1660771992.000000
+Z13 !s90 -work|work|primeiro_projeto.vho|
+Z14 !s107 primeiro_projeto.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eprimeiro_projeto
+Z17 w1660773391
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VdOmIa:1]>Hig]V0O1fHXH3
+!s100 Ogg??B>V?_2fEP]b4^_i[0
+R10
+32
+Z18 !s110 1660773392
+!i10b 1
+Z19 !s108 1660773392.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 primeiro_projeto 0 22 dOmIa:1]>Hig]V0O1fHXH3
+l73
+L45
+V4O0RTW85Z80c1o2LVDlfL1
+!s100 [F16YIRbNY[b;L0h@k47l1
+R10
+32
+R18
+!i10b 1
+R19
+R13
+R14
+!i113 1
+R15
+R16
+Eprimeiro_projeto_vhd_vec_tst
+Z20 w1660773390
+R5
+R6
+R0
+Z21 8Waveform2.vwf.vht
+Z22 FWaveform2.vwf.vht
+l0
+L31
+V^PeUfoQNajk0n[5JObRA82
+!s100 WEAd7]2GhWmFXhY6;A?4W2
+R10
+32
+R18
+!i10b 1
+R19
+Z23 !s90 -work|work|Waveform2.vwf.vht|
+Z24 !s107 Waveform2.vwf.vht|
+!i113 1
+R15
+R16
+Aprimeiro_projeto_arch
+R5
+R6
+Z25 DEx4 work 28 primeiro_projeto_vhd_vec_tst 0 22 ^PeUfoQNajk0n[5JObRA82
+l52
+L33
+V^lSWIQgL`UISV@Dz<MjQV2
+!s100 H`WKBIK?zFSka<ZL`Aj?63
+R10
+32
+R18
+!i10b 1
+R19
+R23
+R24
+!i113 1
+R15
+R16

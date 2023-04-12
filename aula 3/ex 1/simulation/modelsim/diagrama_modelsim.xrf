@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/diagramadeblocos/diagrama.bdf
+source_file = 1, C:/Users/aluno/Desktop/diagramadeblocos/Waveform.vwf
+source_file = 1, C:/Users/aluno/Desktop/diagramadeblocos/db/diagrama.cbx.xml
+design_name = diagrama
+instance = comp, \LEDR[2]~output\, LEDR[2]~output, diagrama, 1
+instance = comp, \LEDR[1]~output\, LEDR[1]~output, diagrama, 1
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, diagrama, 1
+instance = comp, \SW[2]~input\, SW[2]~input, diagrama, 1
+instance = comp, \SW[0]~input\, SW[0]~input, diagrama, 1
+instance = comp, \SW[1]~input\, SW[1]~input, diagrama, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, diagrama, 1

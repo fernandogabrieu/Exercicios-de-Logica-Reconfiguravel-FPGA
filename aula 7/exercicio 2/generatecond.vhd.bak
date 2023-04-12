@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity generatecond is 
+port( d: in BIT_VECTOR (0 to 3);
+		y: out BIT_VECTOR (0 to 3));
+end generatecond;
+
+architecture funcao of generatecond is
+	SIGNAL aux: BIT_VECTOR (0 to 3);
+begin
+--	aux(0) <= (d(0) and d(1)) or (d(1) and d(2));
+	
+	gen: for i in 0 to 3 generate
+		mais_significativo : if d(0) generate
+			y(i) <= 0
+			end generate mais_significativo;
+		menos_significativo : if !d(0) generate
+			y(i) <= d(i)
+			end generate menos_significativo;	
+	end generate gen;
+end architecture;

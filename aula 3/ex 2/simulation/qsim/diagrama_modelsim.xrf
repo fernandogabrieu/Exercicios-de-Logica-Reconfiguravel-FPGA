@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/ex 2/diagrama.bdf
+source_file = 1, C:/Users/aluno/Desktop/ex 2/db/diagrama.cbx.xml
+design_name = diagrama
+instance = comp, \HEX[3]~output , HEX[3]~output, diagrama, 1
+instance = comp, \HEX[2]~output , HEX[2]~output, diagrama, 1
+instance = comp, \HEX[1]~output , HEX[1]~output, diagrama, 1
+instance = comp, \HEX[0]~output , HEX[0]~output, diagrama, 1
+instance = comp, \KEY[0]~input , KEY[0]~input, diagrama, 1
+instance = comp, \KEY[0]~inputCLKENA0 , KEY[0]~inputCLKENA0, diagrama, 1
+instance = comp, \inst7~0 , inst7~0, diagrama, 1
+instance = comp, \inst5~0 , inst5~0, diagrama, 1
+instance = comp, \inst4~0 , inst4~0, diagrama, 1
+instance = comp, \inst6~0 , inst6~0, diagrama, 1
+instance = comp, \inst6~DUPLICATE , inst6~DUPLICATE, diagrama, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, diagrama, 1

@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity shiftreg1 is
+	port( d, clk, rst : in std_logic;
+			q : buffer std_logic_vector(2 downto 0);
+end shiftreg1;
+
+architecture funcao of shiftreg1 is
+begin
+	process(rst, clk)
+	begin
+		if(rst='1') then
+			q <= '0';
+		ELSEIF (clk'event and clk='1') then
+			deslocador : for i in 0 to 2 loop
+					q(i) <= d;
+				end loop;
+			q <= d;
+		end if;
+	end process;
+end funcao;
+					

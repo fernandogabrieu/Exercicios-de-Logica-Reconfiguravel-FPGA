@@ -1,0 +1,19 @@
+|exercicio
+saida1[8] << <GND>
+saida1[7] << <GND>
+saida1[6] << <GND>
+saida1[5] << <GND>
+saida1[4] << <VCC>
+saida1[3] << <VCC>
+saida1[2] << <GND>
+saida1[1] << <GND>
+saida2[3] << <VCC>
+saida2[2] << <GND>
+saida2[1] << <VCC>
+saida2[0] << <VCC>
+saida3[0] << <VCC>
+saida3[1] << <GND>
+saida3[2] << <VCC>
+saida3[3] << <VCC>
+
+

@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity shiftreg1 is
+	port( serial, clk : in std_logic;
+			Q : buffer std_logic_vector(3 downto 0));
+end shiftreg1;
+
+architecture funcao of shiftreg1 is
+begin
+	process(clk)
+	begin
+		if clk'EVENT and clk = '1' then
+			Q(0) <= Q(1);
+			Q(1) <= Q(2);
+			Q(2) <= Q(3);
+			Q(3) <= serial;
+		end if;
+	end process;
+end funcao;
+					

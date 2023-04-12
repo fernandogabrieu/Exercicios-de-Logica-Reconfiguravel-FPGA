@@ -1,0 +1,31 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity exercicio is 
+	PORT( KEY: in std_logic_vector(0 downto 0);
+	HEX0 : OUT std_logic_vector(0 to 6));
+end exercicio;
+
+architecture funcao of exercicio is
+	signal sum: INTEGER range 0 to 15 := 0;
+begin
+	process (KEY)
+	begin
+		if(KEY(0)'EVENT and KEY(0)='1') then
+			sum <= sum + 1;
+		case sum is
+			when 0 => HEX0 <= "0000001";
+			when 1 => HEX0 <= "1001111";
+			when 2 => HEX0 <= "0010010";
+			when 3 => HEX0 <= "0000110";
+			when 4 => HEX0 <= "1001100";
+			when 5 => HEX0 <= "0100100";
+			when 6 => HEX0 <= "0100000";
+			when 7 => HEX0 <= "0001111";
+			when 8 => HEX0 <= "0000000";
+			when 9 => HEX0 <= "0000100";
+			when others => HEX0 <= "0110000";
+		end case;
+		end if;
+	end process;
+end funcao;

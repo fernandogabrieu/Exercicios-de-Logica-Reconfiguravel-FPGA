@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Sep 28 15:56:27 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : waituntil
+Top-level Entity Name : waituntil
+Family : Cyclone IV E
+Total logic elements : 5
+    Total combinational functions : 1
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity aula IS 
+	PORT( SW : IN std_logic_vector(1 downto 0);
+			LEDR : OUT std_logic_vector(0 downto 0));
+END aula;
+
+architecture logica of aula
+IS
+BEGIN
+	LEDR(0) <= SW(0) and SW(1);
+END logica;

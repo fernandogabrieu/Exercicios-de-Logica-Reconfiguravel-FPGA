@@ -1,0 +1,18 @@
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity waituntil is 
+	PORT( entrada : in integer range 0 to 7;
+			saida : out std_logic_vector (3 downto 0) := "0000");
+end waituntil;
+
+architecture funcao of waituntil is
+begin
+	process
+		begin
+			wait until entrada = 2;
+			saida <= "1111";
+	end process;
+end funcao;

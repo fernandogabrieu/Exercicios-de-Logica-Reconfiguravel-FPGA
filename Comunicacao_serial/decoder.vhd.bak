@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity decoder is 
+
+port (dados: out std_logic_vector (7 downto 0);
+      SW: in std_logic_vector(1 downto 0 ));
+
+end decoder;
+
+architecture basica of decoder is
+begin
+ 
+process (SW)
+begin	
+	CASE SW IS
+		WHEN "00" => dados <= "";
+		WHEN "00" => dados <= "";
+		WHEN "00" => dados <= "";
+		WHEN "00" => dados <= "";
+	END CASE;				
+
+end process;
+
+end basica;

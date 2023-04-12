@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aluno/Desktop/aula 10/mux2para1.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/aluno/Desktop/aula 10/db/mux2para1.cbx.xml
+design_name = mux2para1
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, mux2para1, 1
+instance = comp, \SW[0]~input\, SW[0]~input, mux2para1, 1
+instance = comp, \SW[2]~input\, SW[2]~input, mux2para1, 1
+instance = comp, \SW[1]~input\, SW[1]~input, mux2para1, 1
+instance = comp, \LEDR~0\, LEDR~0, mux2para1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, mux2para1, 1

@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity mux2para1 is 
+	PORT( SEL : in std_logic_vector (1 downto 0);
+			X : out std_logic_vector (7 downto 0));
+end mux2para1;
+
+architecture funcao of mux2para1 is
+begin
+	process (a, b, sel)
+	begin
+		case sel is
+			when '0' => y <= a;
+			when others => y <= b;
+		end case;
+	end process;
+end funcao;

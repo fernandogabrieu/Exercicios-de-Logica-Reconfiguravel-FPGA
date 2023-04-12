@@ -1,0 +1,15 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY mux_vetor IS
+PORT(
+	switch : IN STD_LOGIC_VECTOR(3 downto 0);
+	key : IN STD_LOGIC_VECTOR(1 downto 0);
+	led : OUT std_logic);
+END mux_vetor;
+
+
+ARCHITECTURE logica OF mux_vetor IS
+BEGIN
+	led <= (switch(0) and NOT key(0) and NOT key(1)) OR (switch(1) and NOT key(0) and key(1)) OR (switch(2) and key(0) and NOT key(1)) OR (switch(3) and key(0) and key(1));
+END logica;
